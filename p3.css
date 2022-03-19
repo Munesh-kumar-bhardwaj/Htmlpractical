@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.form{
+   
+    
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 1px;
+    padding: 20px;
+    width: 80%;
+    
+    box-shadow: 0 2px 6px 2px;
+    
+    
+
+}
+.labelleft{
+    float: left;
+    
+}
+.inputright{
+    float: right;
+    width: 50%;
+}
+.langk{
+    margin-left: 20%;
+}
+.btn{
+    text-align: center;
+}

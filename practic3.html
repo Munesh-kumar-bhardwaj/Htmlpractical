@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p3.css">
+</head>
+
+<body>
+    <h2>Employee Registration Form</h2>
+    <div class="form">
+        <form action="">
+
+            <input type="radio" name="gdr" id="mr">
+            <label for="mr">Mr.</label>
+            <input type="radio" name="gdr" id="mrs">
+            <label for="mrs">Mrs.</label>
+            <input type="radio" name="gdr" id="ms">
+            <label for="ms">Ms.</label> <br><br>
+
+            <label class="labelleft" for="firstname">First Name</label>
+            <input class="inputright" type="text" name="" id="firstname"> <br> <br>
+            <label class="labelleft" for="lastname">Last Name</label>
+            <input class="inputright" type="text" name="" id="lastname"> <br><br>
+            <label class="labelleft" for="MailAddress1">Mail Address 1</label>
+            <input class="inputright" type="text" name="" id="MailAddress1"> <br><br>
+
+            <label class="labelleft" for="MailAddress2">Mail Address 2</label>
+            <input class="inputright" type="text" name="" id="MailAddress2"> <br><br>
+            <label class="labelleft" for="city">City</label>
+            <input class="inputright" type="text" name="" id="city"> <br><br>
+            <label class="labelleft" for="state">State</label>
+            <select class="inputright" name="" id="state">
+                <option value="andhrapradesh" id="state">Andhra Pradesh</option>
+                <option value="Arunachal" id="state">Arunachal Pradesh</option>
+                <option value="Assam" id="state">Assam </option>
+                <option value="Bihar" id="state">Bihar</option>
+                <option value="Chhattisgarh" id="state">Chhattisgarh</option>
+                <option value="Gujarat" id="state">Gujarat</option>
+                <option value="Haryana" id="state">Haryana</option>
+                <option value="Himachal" id="state">Himachal Pradesh</option>
+                <option value="other" id="state">Other</option>
+            </select>
+            <br><br>
+            <label class="labelleft" for="Zip">Zip</label>
+            <input class="inputright" type="text" name="" id="Zip"> <br><br>
+            <label class="labelleft" for="file">Upload File</label>
+            <input class="inputright" type="file" name="" id="file"> <br><br>
+
+            <label class="labelleft" for="email">E-mail</label>
+            <input class="inputright" type="email" name="" id="email" oninvalid="alert('Fill out the form')" required>
+            <br><br>
+
+            <label class="labelleft" for="Mobile">Mobile</label>
+            <input class="inputright" type="tel" name="" id="Mobile" placeholder="+91"> <br><br>
+            <label class="labelleft" for="languages">Languages Known</label> <br><br>
+
+            <div class="langk">
+                <input class="inputright" type="checkbox" id="gujarati"> <label class="labelleft"
+                    for="gujarati">Gujarati</label> <br>
+                <input class="inputright" type="checkbox" id="Hindi"> <label class="labelleft" for="Hindi">Hindi</label>
+                <br>
+                <input class="inputright" type="checkbox" id="English"> <label class="labelleft"
+                    for="English">English</label> <br>
+                <input class="inputright" type="checkbox" id="Urdu"> <label class="labelleft" for="Urdu">Urdu</label>
+                <br>
+
+                <input class="inputright" type="checkbox" id="Dogri"> <label class="labelleft" for="Dogri">Dogri</label>
+                <br> <br>
+            </div>
+            <label class="labelleft" for="comment">Additional Information</label> <br>
+            <textarea class="inputright" name="" id="comment" cols="25" rows="3">Enter text here </textarea>
+            <br><br> <br><br>
+            <div class="btn">
+                <input style="background-color: green; color: white;" type="reset">
+                <input style="background-color: red; color: white;" type="submit"
+                    onclick="alert('Thanks For Submitting')">
+
+            </div>
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#bg{
+    background-image: url('Hotel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: rgba(10, 10, 10, 1.0);
+    border-style: outset ;
+    border-color:red ;
+    border-width: 10px;
+    border-radius:13px;
+
+
+}
